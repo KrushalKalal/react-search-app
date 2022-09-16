@@ -16,6 +16,7 @@ class Header extends Component{
         this.setState({
             keyword:event.target.value?event.target.value:'User Text Here'
         })
+        this.props.searchData(event.target.value)
     }
 
     
